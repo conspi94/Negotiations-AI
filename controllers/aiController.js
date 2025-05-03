@@ -28,4 +28,4 @@ Tone: ${tone}
     console.error("OpenAI Error:", error);
     res.status(500).json({ error: "Failed to generate negotiation." });
   }
-};
+}; 
